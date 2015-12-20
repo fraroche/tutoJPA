@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.autocommit">true</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">csntcsnt</property>
+        <property name="hibernate.connection.release_mode">auto</property>
+        <property name="hibernate.connection.url">jdbc:mysql://10.255.134.77:3306/bref</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.default_schema">bref</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+        <property name="hibernate.ejb.discard_pc_on_close">false</property>
+        <property name="hibernate.query.jpaql_strict_compliance">true</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+        <property name="hibernate.transaction.flush_before_completion">false</property>
+        <property name="hibernate.use_identifier_rollback">false</property>
+        <mapping class="fr.si2m.bref.orm.PortefeuilleAdherent" />
+        <mapping class="fr.si2m.bref.orm.CycleDeVieEntreprise" />
+        <mapping class="fr.si2m.bref.orm.Adherent" />
+        <mapping class="fr.si2m.bref.orm.CycleDeVieEtablissement" />
+        <mapping class="fr.si2m.bref.orm.SignaletiqueEtablissement" />
+        <mapping class="fr.si2m.bref.orm.InterlocutionParDefaut" />
+        <mapping class="fr.si2m.bref.orm.MoyenDePaiementEtablissement" />
+        <mapping class="fr.si2m.bref.orm.AdressesEtablissement" />
+        <mapping class="fr.si2m.bref.orm.SignaletiqueInterlocuteur" />
+        <mapping class="fr.si2m.bref.orm.LienGroupeEntreprise" />
+        <mapping class="fr.si2m.bref.orm.Groupe" />
+        <mapping class="fr.si2m.bref.orm.SignaletiqueEntreprise" />
+    </session-factory>
+</hibernate-configuration>

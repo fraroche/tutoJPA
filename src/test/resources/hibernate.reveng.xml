@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="ADHERENT"></table-filter>
+	<table-filter match-name="ADRESSES_ETABLISSEMENT"></table-filter>
+	<table-filter match-name="CYCLE_DE_VIE_ENTREPRISE"></table-filter>
+	<table-filter match-name="CYCLE_DE_VIE_ETABLISSEMENT"></table-filter>
+	<table-filter match-name="GROUPE"></table-filter>
+	<table-filter match-name="INTERLOCUTION_PAR_DEFAUT"></table-filter>
+	<table-filter match-name="LIEN_GROUPE_ENTREPRISE"></table-filter>
+	<table-filter match-name="MOYEN_DE_PAIEMENT_ETABLISSEMENT"></table-filter>
+	<table-filter match-name="PORTEFEUILLE_ADHERENT"></table-filter>
+	<table-filter match-name="RELATION_5"></table-filter>
+	<table-filter match-name="RELATION_7"></table-filter>
+	<table-filter match-name="SIGNALETIQUE_ENTREPRISE"></table-filter>
+	<table-filter match-name="SIGNALETIQUE_ETABLISSEMENT"></table-filter>
+	<table-filter match-name="SIGNALETIQUE_INTERLOCUTEUR"></table-filter>
+</hibernate-reverse-engineering>
